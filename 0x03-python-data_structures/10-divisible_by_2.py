@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
-def division_by_2(my_list=[]):
+def divisible_by_2(my_list=[]):
 
     all_multiples = []
-    for i in range(len(my_list)) :
+    for i in range(len(my_list)):
         if my_list[i] % 2 == 0:
             all_multiples.append(True)
         else:
