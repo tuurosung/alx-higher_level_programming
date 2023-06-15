@@ -14,9 +14,9 @@ def roman_to_int(roman_string):
         if array.get(roman_string[i], 0) == 0:
             return (0)
 
-        if (i != (len(roman_string) - 1) and
-            array[roman_string[i]] < array[roman_string[i + 1]]):
-                val += array[roman_string[i]] * -1
+        if (i != (len(roman_string) - 1)
+                and array[roman_string[i]] < array[roman_string[i + 1]]):
+            val += array[roman_string[i]] * -1
 
         else:
             val += array[roman_string[i]]
