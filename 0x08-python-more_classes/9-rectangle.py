@@ -68,8 +68,13 @@ class Rectangle:
 
     @classmethod
     def square(cls, size=0):
-        """Returns a square"""
-        return (cls,(size, size))
+        """Returns a square
+        Args:
+                size(int, optional): size of the square
+        Returns:
+                A Rectangle
+        """
+        return cls,(size, size)
 
     def __str__(self):
         """Returns representation of the rectangle"""
