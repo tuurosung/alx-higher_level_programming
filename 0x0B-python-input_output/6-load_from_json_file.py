@@ -3,7 +3,7 @@
 import json
 
 
-def load_from_json(filename):
+def load_from_json_file(filename):
     """Create a new oobject from a json file"""
     with open(filename) as f:
         return json.load(f)
