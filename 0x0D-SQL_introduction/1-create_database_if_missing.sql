@@ -1,2 +1,2 @@
----- Create a new database
+-- Create a new database
 CREATE TABLE IF NOT EXISTS 'hbtn_0c_0';
