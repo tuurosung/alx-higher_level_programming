@@ -1,2 +1,2 @@
----List all datables
+-- List all datables
 SHOW DATABASES
